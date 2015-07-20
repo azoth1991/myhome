@@ -1,0 +1,38 @@
+<section class="content">
+    <div class="box box-primary">
+        <div class="box-header">
+            <h3 class="box-title">新闻列表</h3>
+            <div class="box-tools">
+                <a data-ui-sref="home.news.add" class="btn btn-sm btn-primary">添加新闻</a>
+            </div>
+        </div>
+
+        <div class="box-body">
+            <table class="table table-bordered">
+                <tbody><tr>
+                    <th>ID</th>
+                    <th>标题</th>
+                    <th>内容</th>
+                    <th>时间</th>
+                </tr>
+                <tr data-ng-repeat="item in news">
+                    <td>{{item.id}}</td>
+                    <td>{{item.title}}</td>
+                    <td>{{item.content}}</td>
+                    <td>{{item.create_time}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="box-footer clearfix">
+            <ul class="pagination pagination-sm no-margin pull-right">
+                <li><a href="#">«</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">»</a></li>
+            </ul>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,109 @@
+[ 2015-07-16T09:26:41+08:00 ] ::1 /Rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0017s ]
+
+[ 2015-07-16T09:30:27+08:00 ] ::1 /Rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0003s ]
+
+[ 2015-07-16T09:30:34+08:00 ] ::1 /Rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0002s ]
+
+[ 2015-07-16T09:31:07+08:00 ] ::1 /Rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0004s ]
+
+[ 2015-07-16T09:31:53+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2015-07-16T09:32:49+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0009s ]
+
+[ 2015-07-16T16:16:30+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0003s ]
+
+[ 2015-07-16T16:20:22+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0003s ]
+
+[ 2015-07-16T16:21:46+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0010s ]
+
+[ 2015-07-16T16:26:36+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0003s ]
+
+[ 2015-07-16T16:28:03+08:00 ] ::1 /rest/Home/news
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `t_news` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `t_news`  [ RunTime:0.0002s ]
+
