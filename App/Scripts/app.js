@@ -9,15 +9,6 @@ angular
           "": {templateUrl: "Modules/Home/home.html"},
           "menu@home": {templateUrl: 'Modules/Home/menu.html'}
         }
-      })
-      .state('home.nodepad',{
-        url:"/nodepad",
-        views:{
-          "main@home":{
-            templateUrl: "Modules/News/nodepad.html",
-            controller: "NodepadController"
-          }
-        }
       });
 
     $urlRouterProvider.otherwise('/news');
